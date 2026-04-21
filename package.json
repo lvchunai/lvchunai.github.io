@@ -1,29 +1,27 @@
 {
-  "name": "lvchunai.github.io",
-  "version": "1.0.0",
-  "description": " 分类 + 前端 + CSS   + javascript   + HTML   + 浏览器   + React   + 组件",
-  "main": "index.js",
+  "name": "resume-temp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "hexo-cli": "^3.1.0",
-    "webpack": "^4.41.2"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "css-loader": "^3.2.0",
-    "less": "^3.10.3",
-    "less-loader": "^5.0.0",
-    "style-loader": "^1.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lvchunai/lvchunai.github.io.git"
-  },
-  "author": "lvchunai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lvchunai/lvchunai.github.io/issues"
-  },
-  "homepage": "https://github.com/lvchunai/lvchunai.github.io#readme"
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.9"
+  }
 }
