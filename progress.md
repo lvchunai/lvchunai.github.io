@@ -25,11 +25,13 @@
 - [x] 添加深色模式切换功能
 - [x] 添加技能进度条可视化
 - [x] 添加下载简历按钮
+- [x] 配置 GitHub Actions 自动部署
+- [x] 提交并推送到 GitHub
 
 ### 下一步
+- 在 GitHub 仓库设置中启用 GitHub Pages
 - 自定义个人信息（姓名、联系方式、项目经历等）
-- 准备 resume.pdf 文件
-- 部署到 GitHub Pages
+- 准备 resume.pdf 文件放到 public/ 目录
 
 ### 遇到的问题
 无
